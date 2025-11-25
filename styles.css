@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-image: url("img/fundo.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.caixa-conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 60px
+}
+
+.text-satarbucks {
+    color: #00704A;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #00704A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #02e482;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 50px;  /* Ajuste vertical */
+    right: 100px;  
+}
+
+.imagem-copo {
+    width: 300px; 
+    
+}
+
+.caixa-menu {
+    position: absolute;
+    bottom: 120px;  /* Ajuste vertical */
+    right: 720px;   /* Ajuste horizontal */
+    display: flex;
+    gap: 15px;
+}
+
+.botao-copo {
+    width: 75px;
+    cursor: pointer;
+}
+
+.circulo {
+    width: 100%;
+    height: 100%;
+    background-color: #00704A;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+}
+
+
+
